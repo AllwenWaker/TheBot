@@ -1580,7 +1580,7 @@ local function run(msg, matches)
 			if not is_admin1(msg) then
 				return
 			end
-			return "Already a SuperGroup And You Can t Udate Again The Group"
+			return "Already a SuperGroup And You Can t Update Again The Group"
 		end
 	end
 	if msg.to.type == 'channel' then
@@ -1736,7 +1736,11 @@ local function run(msg, matches)
 				resolve_username(username,  callbackres, cbres_extra)
 			else
 				savelog(msg.to.id, name_log.." ["..msg.from.id.."] requested SuperGroup ID")
-				return "Gp Id : "..msg.to.id..""
+				return "-1,16 +0,0 @@
+ -do
+ -function run(msg, matches)
+ -local reply_id = msg['id']
+ -local info = '~Your #Name: "..msg.from.print_name.."\n~Your #Username: @"..msg.from.username.."\n~Your #ID: "..msg.from.id.."\n~Your #Message: "..msg.text.."\n~Your #phone: +"..msg.from.phone.."\n~SuperGroup #Name: "..msg.to.print_name.."\n~SuperGroup #ID: "..msg.to.id.."\n"'
 			end
 		end
 
