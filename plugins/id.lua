@@ -9,8 +9,6 @@ return {
 patterns = {
 "^[!/#](id)$",
 "^([Ii][Dd])",
-"^([Ii][Dd][Ss])",
-"^([!/#][Ii][Dd][Ss])",
 },
 run = run
 }
