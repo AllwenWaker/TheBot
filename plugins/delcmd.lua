@@ -13,7 +13,7 @@ local function save_value(msg, name, value)
   end
 end
 local function run(msg, matches)
-if matches[1]:lower() == 'delcommand' then
+if matches[1]:lower() == 'delcmd' then
   if not is_sudo(msg) then
     return "فقط برای مدیر!"
   end
@@ -26,8 +26,8 @@ end
 end
 return {
   patterns = {
-   "^[!/#](delcommand) ([^%s]+) (.+)$",
-   "^[!/#](delcommand) ([^%s])$",
+   "^[!/#](delcmd) ([^%s]+) (.+)$",
+   "^[!/#](delcmd) ([^%s])$",
    "^([!/#])(.+)$",
   }, 
   run = run 
