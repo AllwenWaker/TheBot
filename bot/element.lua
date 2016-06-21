@@ -246,7 +246,13 @@ function create_config( )
         "sets",
         "setbye",
         "setwlc",
-        "show" 
+        "show",
+        "abjad",
+        "pass",
+        "clash",
+        "settype",
+        "server",
+        "warn"
         
     },
     sudo_users = {207418094},--Sudo users
