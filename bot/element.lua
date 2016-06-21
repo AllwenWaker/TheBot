@@ -251,7 +251,7 @@ function create_config( )
     },
     sudo_users = {207418094},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[😎 Element 😎
+    about_text = [[😎 ElementBot 😎
 
 💠An advence Telegram Bot Based On Lua And Dev By Allwen💠
 
