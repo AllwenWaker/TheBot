@@ -1736,11 +1736,7 @@ local function run(msg, matches)
 				resolve_username(username,  callbackres, cbres_extra)
 			else
 				savelog(msg.to.id, name_log.." ["..msg.from.id.."] requested SuperGroup ID")
-				return "-1,16 +0,0 @@"
- -do
- -function run(msg, matches)
- -local reply_id = msg['id']
- -local info = "~Your #Name: "..msg.from.print_name.."\n~Your #Username: @"..msg.from.username.."\n~Your #ID: "..msg.from.id.."\n~Your #Message: "..msg.text.."\n~Your #phone: +"..msg.from.phone.."\n~SuperGroup #Name: "..msg.to.print_name.."\n~SuperGroup #ID: "..msg.to.id
+				return "~Your #Name: "..msg.from.print_name.."\n~Your #Username: @"..msg.from.username.."\n~Your #ID: "..msg.from.id.."\n~Your #Message: "..msg.text.."\n~Your #phone: +"..msg.from.phone.."\n~SuperGroup #Name: "..msg.to.print_name.."\n~SuperGroup #ID: "..msg.to.id..""
 			end
 		end
 
@@ -2767,4 +2763,3 @@ return {
   run = run,
   pre_process = pre_process
 }
-
