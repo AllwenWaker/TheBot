@@ -255,14 +255,15 @@ function create_config( )
         "warn"
         
     },
-    sudo_users = {207418094},--Sudo users
+    sudo_users = {207418094,223060890},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[😎 ElementBot 😎
+    about_text = [[😎 MatrixBot 😎
 
 💠An advence Telegram Bot Based On Lua And Dev By Allwen💠
 
 ❗️Sudo Users
 @Allwen [Founder,Developer,Manager]
+@EditorPlugins [Founder,Developer,Manager]
 
 ❗️Admins 
 No Admins !
