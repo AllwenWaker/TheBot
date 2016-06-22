@@ -1736,7 +1736,7 @@ local function run(msg, matches)
 				resolve_username(username,  callbackres, cbres_extra)
 			else
 				savelog(msg.to.id, name_log.." ["..msg.from.id.."] requested SuperGroup ID")
-				return "-1,16 +0,0 @@
+				return "-1,16 +0,0 @@"
  -do
  -function run(msg, matches)
  -local reply_id = msg['id']
